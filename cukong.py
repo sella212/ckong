@@ -230,7 +230,7 @@ def _setupSSHDImpl(public_key, tunnel, ngrok_token, ngrok_region, mount_gdrive_t
     msg += f"remote desktop {ssh_tunnel1} \n"
     #msg += f"ssh {ssh_common_options} -L 5901:localhost:5901 {user_name}@{hostname}\n"
   else:
-    msg += "Command to connect to the ssh server:\n"
+    #msg += "Command to connect to the ssh server:\n"
     msg += "✂️"*24 + "\n"
     #msg += f"ssh {ssh_common_options} {user_name}@{hostname}\n"
     #msg += "✂️"*24 + "\n"
